@@ -74,6 +74,7 @@ header {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2rem;
+    overflow: hidden;
 }
 
 section {
@@ -99,7 +100,6 @@ section {
     width: 800px;
     height: auto;
     animation: floatAnimation 3s infinite alternate
-
 }
 
 .hero-text a {
@@ -166,6 +166,11 @@ section {
     header {
         padding: 15px 3%;
         transition: .2s;
+    }
+
+    .hero-img img {
+        width: 560px;
+        height: auto;
     }
 
     .icons {
@@ -238,7 +243,7 @@ section {
     }
 
     .hero-text h1 {
-        font-size: 50px;
+        font-size: 40px;
         margin-bottom: 10px;
     }
 
@@ -250,6 +255,7 @@ section {
 
     .hero-text a {
         font-size: 10px;
+        margin-bottom: 10px;
     }
 
     .navlist {
@@ -279,8 +285,16 @@ section {
 
 @media (max-width: 680px) {
     .hero-img img {
-        width: 400px;
+        width: 100%;
         height: auto;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+
+    .logo img {
+        width: 50px;
     }
 
 }
