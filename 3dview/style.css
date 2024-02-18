@@ -1,0 +1,14 @@
+header {
+    background: linear-gradient(245.59deg, #78bae4 0%, #427899 28.53%, #427899 28.53%, #25516e 75.52%);
+}
+
+.main {
+    text-align: center;
+}
+
+model-viewer {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+
