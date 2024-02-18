@@ -1,0 +1,68 @@
+header {
+    background: linear-gradient(245.59deg, #78bae4 0%, #427899 28.53%, #427899 28.53%, #25516e 75.52%);
+}
+
+.main {
+    max-width: 800px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.main h1 {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    margin-top: 80px;
+    font-size: 80px;
+    color: #25516e;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.scroll-down {
+    position: fixed;
+}
+
+.team {
+    display: grid;
+    position: absolute;
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+    left: 0;
+    top: 350px;
+}
+
+.member {
+    flex: 1;
+    padding: 50px;
+}
+
+.member img {
+    width: 200px;
+}
+
+.member h3 {
+    color: #25516e;
+    font-size: 20px;
+}
+
+.member p {
+    color: #25516e;
+}
+
+@media (max-width: 1460px) {
+    .team {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 990px) {
+    .team {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 680px) {
+    .team {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

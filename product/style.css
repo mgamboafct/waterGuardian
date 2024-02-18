@@ -1,0 +1,75 @@
+header {
+    background: linear-gradient(245.59deg, #78bae4 0%, #427899 28.53%, #427899 28.53%, #25516e 75.52%);
+}
+
+.main {
+    max-width: 800px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.robot-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.features {
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature i {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.sensors {
+    background: #427899;
+    color: #fff;
+    height: 200px;
+}
+
+.sensors .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sensors .title  i {
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.sensors h2 {
+    padding-top: 40px;
+    font-size: 35px;
+}
+
+.senlist {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    justify-content: space-evenly;
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+@media (max-width: 990px) {
+    .sensors {
+        height: 400px;
+    }
+
+    .senlist {
+        grid-template-columns: repeat(1, auto);
+        text-align: center;
+        margin-left: 200px;
+    }
+}
