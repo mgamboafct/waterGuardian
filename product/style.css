@@ -65,6 +65,26 @@ header {
     margin-top: 25px;
 }
 
+.main a {
+    display: inline-block;
+    color: white;
+    background: #25516e;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .55s ease;
+}
+
+.main a:hover {
+    background: #78bae4;
+    border: 1px solid #fff;
+    transform: translateX(8px);
+}
+
 @media (max-width: 990px) {
     .feature i {
         font-size: 40px;
