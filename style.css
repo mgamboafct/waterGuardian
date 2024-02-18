@@ -150,6 +150,7 @@ section {
 }
 
 .scroll-down i:hover {
+    cursor: pointer;
     transform: translateY(-5px);
 }
 
@@ -162,7 +163,7 @@ section {
     }
 }
 
-@media (max-width: 1535px) {
+@media (max-width: 1734px) {
     header {
         padding: 15px 3%;
         transition: .2s;
@@ -170,7 +171,6 @@ section {
 
     .hero-img img {
         width: 560px;
-        height: auto;
     }
 
     .icons {
@@ -192,14 +192,16 @@ section {
 }
 
 @media (max-width: 1340px) {
-    .hero-img img {
-        width: 560px;
-        height: auto;
-    }
-
     .hero-text h1 {
         font-size: 75px;
         margin: 0 0 30px;
+    }
+}
+
+
+@media (max-width: 1282px) {
+    .hero-img img {
+        width: 480px;
     }
 }
 
@@ -211,10 +213,6 @@ section {
 
     .hero-text {
         padding-top: 115px;
-    }
-
-    .hero-img img {
-        height: auto;
     }
 
     .hero {
@@ -286,7 +284,6 @@ section {
 @media (max-width: 680px) {
     .hero-img img {
         width: 100%;
-        height: auto;
     }
 
     .logo {

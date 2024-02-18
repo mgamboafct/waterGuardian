@@ -16,3 +16,13 @@ const sr = ScrollReveal ({
 sr.reveal('.hero-text', {delay:200, origin:'top'});
 sr.reveal('.hero-img', {delay:450, origin:'top'});
 sr.reveal('.scroll-down', {delay:500, origin:'right'});
+
+function scrollSenView() {
+    var sensorElement = document.querySelector('.sensors');
+    sensorElement.scrollIntoView({ behavior: 'smooth' });
+}
+
+function scrollBotView() {
+    var bottomElement = document.querySelector('.bottom');
+    bottomElement.scrollIntoView({ behavior: 'smooth' });
+}
