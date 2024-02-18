@@ -81,6 +81,5 @@ header {
     .senlist {
         grid-template-columns: repeat(1, auto);
         text-align: center;
-        margin-left: 200px;
     }
 }
