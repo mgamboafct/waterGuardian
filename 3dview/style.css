@@ -12,3 +12,10 @@ model-viewer {
     margin: 0 auto;
 }
 
+@media (max-width: 990px) {
+    model-viewer {
+        width: 90vw;
+        height: 90vh;
+    }
+}
+
