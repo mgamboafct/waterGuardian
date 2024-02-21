@@ -27,8 +27,13 @@ function scrollBotView() {
     bottomElement.scrollIntoView({ behavior: 'smooth' });
 }
 
+document.addEventListener("click", function () {
+    let video = document.getElementById('vid');
+    video.play()
+});
+
 function openPopup() {
-    document.getElementById('videoFrame').src = 'https://www.youtube.com/embed/Teg4DLhvi4o?autoplay=1';
+    document.getElementById('videoFrame').src = 'https://www.youtube.com/embed/Teg4DLhvi4o?autoplay=1&vq=hd1080';
 
     document.getElementById('videoPopup').style.display = 'flex';
 }
