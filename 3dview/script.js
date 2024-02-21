@@ -1,8 +1,8 @@
 function interiorView() {
-    var int = document.getElementById("iview");
-    var ext = document.getElementById("eview");
-    var interior = document.getElementById("interior");
-    var exterior = document.getElementById("exterior");
+    let int = document.getElementById("iview");
+    let ext = document.getElementById("eview");
+    let interior = document.getElementById("interior");
+    let exterior = document.getElementById("exterior");
 
     ext.classList.remove("active");
     int.classList.add("active");
@@ -12,10 +12,10 @@ function interiorView() {
 }
 
 function exteriorView() {
-    var ext = document.getElementById("eview");
-    var int = document.getElementById("iview");
-    var interior = document.getElementById("interior");
-    var exterior = document.getElementById("exterior");
+    let ext = document.getElementById("eview");
+    let int = document.getElementById("iview");
+    let interior = document.getElementById("interior");
+    let exterior = document.getElementById("exterior");
 
     int.classList.remove("active");
     ext.classList.add("active");

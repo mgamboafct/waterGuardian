@@ -42,13 +42,20 @@
             <h1>WaterGuardian</h1>
             <h4>Every drop at our care!</h4>
             <a href="./product/product.html">View Product</a>
-            <a href="#" class="wtra"><i class="ri-play-fill"></i>Watch Announcement</a>
+            <a href="#" class="wtra" onclick="openPopup()"><i class="ri-play-fill"></i>Watch Announcement</a>
         </div>
 
         <div class="hero-img">
             <img src="images/robot.png" alt="">
         </div>
     </section>
+
+    <div id="videoPopup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup();">&times;</span>
+            <iframe id="videoFrame" src="" allowfullscreen></iframe>
+        </div>
+    </div>
     
     <!--scrollreveal effect-->
     <script src="https://unpkg.com/scrollreveal"></script>
